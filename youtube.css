@@ -336,12 +336,15 @@ font-weight: 500;
     .header-left .logo{
           display: none;
     }
+ 
     .sidebar{
         display: none;
     }
+ 
     .video-container, .large-videos_container, .banner{
         padding-left: 5%;
         padding-right: 5%;
+        
     }
     .header-rigth .img {
         display: none;
@@ -349,11 +352,21 @@ font-weight: 500;
     .header-rigth .acc{
         display: block;
         width: 30px;
+       
     }
     .header-mid .search-box  input{
         width: 100px;
     }
+ 
+
+
+   
+}
+@media(max-width:400px){
     .ui-switch{
-        margin-right: 5px;
+     display: none;
+        
+      
+       
       }
 }
