@@ -21,43 +21,49 @@ body{
     align-items: center;
 }
 header{
-   display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 56px;
-    padding: 0 16px;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 0 16px;
   
+
 }
 .header-left{
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
+.header-left .logo{
+ color: #000;
+}
+
+
 .header-left img{
-    width: 110px;
-    padding-left: 16px;
+  width: 100px;
+  height: 40px;
+  padding-left: 5px;
 }
 .header-mid .mic{
-    width: 16px;
+  width: 16px;
 
 }
 .header-mid .search-box {
-    border: 1px solid #ccc;
-    margin-right: 15px;
-    padding: 8px 12px ;
-    border-radius: 25px;
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 8px 12px ;
+  border-radius: 25px;
 
 }
 .header-mid .search-box  input{
-    width: 400px;
-    border: none;
-    outline: none;
-    background: transparent;
+  width: 400px;
+  border: none;
+  outline: none;
+  background: transparent;
 
 }
 .header-mid .search-box  img {
-    width: 15px;
+  width: 15px;
 }
 
 .header-rigth a{
@@ -65,6 +71,7 @@ padding-right: 18px;
 text-decoration: none;
 color: black;
 }
+
 
 
 .play-container{
