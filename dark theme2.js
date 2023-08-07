@@ -21,20 +21,6 @@ var vid = document.querySelector('.vid-descript');
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let darkMode = false;
 
 function switchmode2(){

@@ -20,10 +20,6 @@ var video2= document.querySelectorAll('.video-creator');
 
 
 
-
-
-
-
 let darkMode = false;
  
 function switchmode(){
