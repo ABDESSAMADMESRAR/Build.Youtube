@@ -684,6 +684,7 @@ color: black;
         display: none;
   }
 
+
   .sidebar{
       display: none;
   }
@@ -704,6 +705,8 @@ color: black;
   }
   .header-mid .search-box  input{
       width: 100px;
+      margin-left: 21px;
+
   }
 
         .play-video{
