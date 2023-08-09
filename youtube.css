@@ -89,14 +89,17 @@ color: black;
     display: flex;
     background-color: #f9f9f9;
 }
-.sidebar{
+.sidebar {
     background-color: white;
 height: 100%;
 width: 280px;
-overflow-y: auto;
 
 
 
+
+}
+.sidebar:hover{
+    overflow-y: auto;
 }
 .shortcut{
     width: 100%;
